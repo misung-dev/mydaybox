@@ -1,0 +1,23 @@
+{
+  "name": "open-source-study",
+  "version": "1.0.0",
+  "description": "A collection of helper functions for formatting and manipulating dates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misung-dev/open-source-study.git"
+  },
+  "keywords": [],
+  "author": "Misung Ryu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misung-dev/open-source-study/issues"
+  },
+  "homepage": "https://github.com/misung-dev/open-source-study#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
