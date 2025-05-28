@@ -1,23 +1,35 @@
 {
-  "name": "open-source-study",
+  "name": "mydaybox",
   "version": "1.0.0",
   "description": "A collection of helper functions for formatting and manipulating dates.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/misung-dev/open-source-study.git"
+    "url": "git+https://github.com/misung-dev/mydaybox.git"
   },
-  "keywords": [],
+  "keywords": [
+    "date",
+    "datetime",
+    "date-utils",
+    "date-format",
+    "typescript",
+    "mydaybox",
+    "calendar",
+    "localization"
+  ],
   "author": "Misung Ryu",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/misung-dev/open-source-study/issues"
+    "url": "https://github.com/misung-dev/mydaybox/issues"
   },
-  "homepage": "https://github.com/misung-dev/open-source-study#readme",
+  "homepage": "https://github.com/misung-dev/mydaybox#readme",
   "devDependencies": {
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "jest": "^29.7.0"
   }
 }
