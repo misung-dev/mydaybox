@@ -1,11 +1,12 @@
 {
-  "name": "mydaybox",
+  "name": "@misung-dev/mydaybox",
   "version": "1.0.0",
   "description": "A collection of helper functions for formatting and manipulating dates.",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsup src/index.ts --format esm,cjs --dts",
     "test": "jest"
   },
   "repository": {
@@ -29,7 +30,8 @@
   },
   "homepage": "https://github.com/misung-dev/mydaybox#readme",
   "devDependencies": {
-    "typescript": "^5.8.3",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
   }
 }
